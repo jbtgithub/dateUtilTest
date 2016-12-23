@@ -8,5 +8,9 @@ public class LocalDateTest {
 		LocalDate tomorrow = today.plusDays(1);
 		
 		System.out.println("today="+today+", tomorrow="+tomorrow);
+		
+		System.out.println(today.compareTo(tomorrow));
+		
+		
 	}
 }
